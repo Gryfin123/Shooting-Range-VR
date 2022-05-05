@@ -100,6 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3419667042276390486}
   - component: {fileID: 8037239192103155168}
+  - component: {fileID: 5740153797745180034}
   - component: {fileID: 8558287229851294091}
   - component: {fileID: 8637499797026221324}
   - component: {fileID: 869858898055500385}
@@ -142,9 +143,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 1
-  bulletSpeed: 100
   projectile: {fileID: 5460738868725361939, guid: 5f19beb8eedfedd46b78edef2eab6986, type: 3}
   shootpoint: {fileID: 3149728679724589537}
+--- !u!114 &5740153797745180034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3414376296199442464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86327ea56be4e7d4fa6f2f58409cbb9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 4000434767952927156}
+  _shotClips:
+  - {fileID: 8300000, guid: 08f78eba48bb21c44ac5a74ca84efc83, type: 3}
+  - {fileID: 8300000, guid: 92d35fe1c59bbd14eaee9e3d3b54cea7, type: 3}
+  - {fileID: 8300000, guid: 947719fd38845824ba3638af9d8e4e54, type: 3}
+  - {fileID: 8300000, guid: 7b889162724f05c4f95da46adbd50ef7, type: 3}
+  - {fileID: 8300000, guid: 929fd214252d7034d93c9463bf63e091, type: 3}
+  _weaponScript: {fileID: 8037239192103155168}
 --- !u!54 &8558287229851294091
 Rigidbody:
   m_ObjectHideFlags: 0

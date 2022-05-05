@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 352430732527804742}
   - component: {fileID: 8225280134409558903}
   - component: {fileID: 5287305269177948762}
+  - component: {fileID: -3845307315468352394}
   m_Layer: 0
   m_Name: BulletDeathVFX
   m_TagString: Untagged
@@ -4804,3 +4805,16 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &-3845307315468352394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817333407986465571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85d5ff6e45e0ac4db99979e21180890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _delay: 1
